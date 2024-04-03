@@ -1,0 +1,394 @@
+.hero {
+  background-image: url("../images/images/hero_bg.price__dateng");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  block-size: cover;
+  height: 100vh;
+}
+.hero__menu-bar {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+.hero-menu {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hero {
+  background-image: url(../images/images/hero_bg.png);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.hero-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-top: 20px;
+}
+.hero-item a,
+.hero-tel {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: black;
+  margin-top: 20px;
+}
+
+.hero-item a:hover {
+  border-bottom: 2px solid black;
+}
+
+.hero-title {
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Rouge Script", cursive;
+  font-size: 250px;
+  font-weight: 400;
+  line-height: 240px;
+}
+.hero-title span {
+  display: block;
+  font-family: "Roboto Condensed";
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 0px;
+  text-align: right;
+}
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+/* !!!! Section Tail !!!!*/
+.tail {
+  width: 1200px;
+}
+.title {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 380px;
+  font-family: "Rouge Script", cursive;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 74px;
+  color: #e2ab3f;
+}
+.title span {
+  display: block;
+  text-align: right;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 28.13px;
+  color: #000000;
+}
+.tail-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.tail-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+/*!! SECTION TRIP !!*/
+.trip__title {
+  min-width: 290px;
+}
+
+.dvigay {
+  position: relative;
+  right: 25px;
+}
+.trip {
+  display: flex;
+  justify-content: right;
+  gap: 180px;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
+.trip__subtitle {
+  font-family: " Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #000;
+}
+
+.trip__descr {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+}
+
+.trip__btn {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+  cursor: pointer;
+  border: 1px solid #e2ab3f;
+  background-color: transparent;
+  color: #000;
+}
+.trip__slider {
+  display: flex;
+  justify-content: righ;
+}
+/*hotel*/
+.hotel {
+  margin-top: 140px;
+  width: 1200px;
+}
+.hotel__title {
+  max-width: 295px;
+  position: relative;
+  right: 30%;
+}
+.hotel__wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.hotel__container {
+  margin-left: 100px;
+}
+
+.hotel__list {
+  width: 600px;
+}
+.hotel__item {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.hotel__fotos {
+  margin-top: 100px;
+  gap: 35px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* !! PRICE !! */
+.price__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__service h3 {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+}
+
+.price__text {
+  max-width: 530px;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+}
+.price__img3 {
+  position: relative;
+  left: 35px;
+  bottom: 45px;
+}
+.price__img2 {
+  position: relative;
+  left: 40px;
+  bottom: 200px;
+}
+.price__img1 {
+  position: relative;
+  left: 140px;
+  bottom: 60px;
+}
+.price__date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  align-items: center;
+}
+.price__request h3 {
+  margin: 0;
+}
+.price__subtitle {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.price__form input {
+  border: 1px solid #e2ab3f;
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.price__big {
+  margin-left: 226px;
+}
+.price__form input::placeholder {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+  color: #000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.price__btn {
+  display: block;
+  margin: 0% auto;
+  border: 1px solid #e2ab3f;
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid orange;
+}
+/*footer*/
+.footer {
+  background-image: url("/images/images/footer_bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  block-size: cover;
+  height: 100vh;
+  max-height: max-content;
+}
+.white__baloon {
+  width: 450px;
+  height: 450px;
+  margin-top: 20px;
+}
+.footter__iter {
+  position: relative;
+}
+
+.white__baloon {
+  width: 400px;
+}
+
+.fotter__contacts {
+  position: absolute;
+  top: 75px;
+  left: 105px;
+}
+.footer__title {
+  font-size: 90px;
+}
+.footer__block a {
+  display: block;
+  margin-top: -80px;
+  padding-bottom: 90px;
+}
+.footer__block a:nth-child(1) img {
+  margin-left: 16px;
+}
+.footer__flex {
+  position: relative;
+  bottom: 70px;
+  left: 55px;
+}
+.footer__son {
+  color: #000;
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+}
+@media screen and (max-width:480px) {
+  .hero-list,
+  .hero-tel {
+    display: none;
+  }
+
+  .hero__menu-bar {
+    display: block;
+    margin-left: auto;
+  }
+
+  .hero-title {
+    margin-top: 75px;
+    font-size: 107px;
+    line-height: 101px;
+  }
+  .hero-title span {
+    font-size: 29px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+    max-width: 283px;
+    font-size: 70px;
+    line-height: 51px;
+  }
+
+  .title span {
+    font-size: 18px;
+    line-height: 20.13px;
+  }
+  .tail-wrapper img {
+    display: none;
+  }
+
+  .tail-descr {
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .trip {
+    display: block;
+    max-width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .trip__title {
+    max-width: 193px;
+  }
+
+  .trip__slider {
+    display: none;
+  }
+  .tail {
+    width: 425px;
+  }
+}
